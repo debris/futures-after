@@ -1,7 +1,12 @@
 [package]
 name = "futures-after"
 version = "0.1.0"
+description = "A stream combinator that buffers a number of elements before yielding them."
 authors = ["debris <marek.kotewicz@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/debris/futures-after"
+homepage = "https://github.com/debris/futures-after"
+keywords = ["futures", "stream", "buffer", "after", "combinator"]
 
 [dependencies]
 futures = "0.1.13"
